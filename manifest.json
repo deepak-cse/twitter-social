@@ -1,0 +1,25 @@
+{ 
+    "manifest_version":2,
+    "name":"twitter social",
+    "description":"Allow you to share text ,images,page,etc. to your twitter account",
+    "background":{
+        "scripts":["background.js"]
+    },
+    "version":"1.0",
+    "icons":{
+        "64":"icon.png",
+        "32":"icon.png",
+        "19":"icon.png",
+        "128":"icon.png"
+    },
+    
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_title":"twitter",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+     "contextMenus" 
+    ]
+    
+}
